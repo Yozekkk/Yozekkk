@@ -1,40 +1,38 @@
-# Yozekkk
+<div align="center">
+  <h1>Yozekkk</h1>
+  <p>Developer building desktop tools, web applications, and Minecraft projects.</p>
+  <p>Rust · TypeScript · React · Vue · Linux</p>
+</div>
 
-Developer • Creator of NCreate
+I work across the NCreate ecosystem: a desktop launcher, a versioned Minecraft pack, publication tooling, and a community site. I also build the NCEA platform and the English Step learning app. The repositories below show the implementation and current limits of each project.
 
-## About me
+## Featured projects
 
-I build desktop applications, web interfaces and tools for NCreate, my Minecraft project. I work with Rust and TypeScript, and develop on Linux.
+| Project | What it contains |
+| --- | --- |
+| [NCreate Launcher](https://github.com/Yozekkk/ncreate-launcher) | Tauri v2 desktop app in Rust and Vue 3. Installs and launches Minecraft instances, browses Modrinth content, and installs the official NCreate Server pack. [v0.6.0 Beta](https://github.com/Yozekkk/ncreate-launcher/releases/tag/v0.6.0) is the current tagged release. |
+| [NCreate Site](https://github.com/Yozekkk/ncreate-site) | React and TanStack Start site with NCreate pages, shared Supabase Auth, and a dedicated forum. Some server information is still shown as “Coming soon.” |
+| [NCEA](https://github.com/Yozekkk/ncea-tra) | Public site and community platform, plus a separate admin application and Supabase migrations. |
+| [English Step](https://github.com/Yozekkk/nelli-english) | Twenty English lessons with quizzes and shared progress stored in Supabase. [Nelly English Stats](https://github.com/Yozekkk/nelli-english-stats) is its separate read-only dashboard. |
+
+## NCreate release chain
+
+```text
+ncreate-pack Stable manifest → NCreate Launcher → installed NCreate Server instance
+```
+
+- [ncreate-pack](https://github.com/Yozekkk/ncreate-pack) publishes the current official pack manifest, reviewed mod sources, and versioned configuration files
+- [ncreate-launcher](https://github.com/Yozekkk/ncreate-launcher) verifies the manifest and files before installation
+- [ncreate-manifests](https://github.com/Yozekkk/ncreate-manifests) contains a separate pipeline for Minimal, Standard, and Ultra editions; those channels are not published or consumed by the current launcher
 
 ## Technologies
 
-![Rust](https://img.shields.io/badge/Rust-242424?style=flat-square&logo=rust&logoColor=FA4C03)
-![Tauri](https://img.shields.io/badge/Tauri-242424?style=flat-square&logo=tauri&logoColor=FA4C03)
-![Vue](https://img.shields.io/badge/Vue-242424?style=flat-square&logo=vuedotjs&logoColor=FA4C03)
-![TypeScript](https://img.shields.io/badge/TypeScript-242424?style=flat-square&logo=typescript&logoColor=FA4C03)
-![React](https://img.shields.io/badge/React-242424?style=flat-square&logo=react&logoColor=FA4C03)
-![Vite](https://img.shields.io/badge/Vite-242424?style=flat-square&logo=vite&logoColor=FA4C03)
-![Node.js](https://img.shields.io/badge/Node.js-242424?style=flat-square&logo=nodedotjs&logoColor=FA4C03)
-![Supabase](https://img.shields.io/badge/Supabase-242424?style=flat-square&logo=supabase&logoColor=FA4C03)
-![Git](https://img.shields.io/badge/Git-242424?style=flat-square&logo=git&logoColor=FA4C03)
-![Linux](https://img.shields.io/badge/Linux-242424?style=flat-square&logo=linux&logoColor=FA4C03)
-
-## Featured project: NCreate Launcher
-
-A desktop launcher for NCreate, built with Tauri v2, Rust and Vue 3:
-
-- Saved offline accounts and profile switching
-- Ely.by skin previews with a local fallback
-- Microsoft Minecraft sign-in flow
-- Windows and Linux release workflows
-- Minimal, Standard and Ultra edition previews
-
-Game installation and launch are planned for the next stage. Full Microsoft account sign-in still needs verification with a licensed account.
-
-[Repository](https://github.com/Yozekkk/ncreate-launcher) · [Latest release](https://github.com/Yozekkk/ncreate-launcher/releases/latest)
-
-## NCreate on the web
-
-I also maintain the NCreate community website, built with React and Supabase.
-
-[NCreate website](https://ncreate-site.vercel.app) · [Website repository](https://github.com/Yozekkk/ncreate-site)
+<p>
+  <img src="https://img.shields.io/badge/Rust-242424?logo=rust&logoColor=white" alt="Rust">
+  <img src="https://img.shields.io/badge/Tauri-v2-242424?logo=tauri&logoColor=white" alt="Tauri v2">
+  <img src="https://img.shields.io/badge/TypeScript-242424?logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Vue-3-242424?logo=vuedotjs&logoColor=white" alt="Vue 3">
+  <img src="https://img.shields.io/badge/React-19-242424?logo=react&logoColor=white" alt="React 19">
+  <img src="https://img.shields.io/badge/TanStack_Start-242424" alt="TanStack Start">
+  <img src="https://img.shields.io/badge/Supabase-242424?logo=supabase&logoColor=white" alt="Supabase">
+</p>
