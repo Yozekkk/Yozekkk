@@ -11,9 +11,9 @@ I work across the NCreate ecosystem: a desktop launcher, a versioned Minecraft p
 | Project | What it contains |
 | --- | --- |
 | [NCreate Launcher](https://github.com/Yozekkk/ncreate-launcher) | Tauri v2 desktop app in Rust and Vue 3. Installs and launches Minecraft instances, browses Modrinth content, and installs the official NCreate Server pack. [v1.0.0 Stable](https://github.com/Yozekkk/ncreate-launcher/releases/tag/v1.0.0) is the current tagged release. |
-| [NCreate Site](https://github.com/Yozekkk/ncreate-site) | React and TanStack Start site with NCreate pages, shared Supabase Auth, and a dedicated forum. Some server information is still shown as “Coming soon.” |
+| [NCreate Site](https://github.com/Yozekkk/ncreate-site) | [Live site](https://www.ncreate.online) with a responsive NCreate home page, shared Supabase Auth, launcher downloads, and a dedicated forum. Unconfirmed server specifications remain marked as pending. |
 | [NCEA](https://github.com/Yozekkk/ncea-tra) | Public site and community platform, plus a separate admin application and Supabase migrations. |
-| [English Step](https://github.com/Yozekkk/nelli-english) | Twenty English lessons with quizzes and shared progress stored in Supabase. |
+| [English Step](https://github.com/Yozekkk/nelli-english) | [Live app](https://nelli-english.vercel.app) with twenty English lessons, quizzes, and shared progress stored in Supabase. |
 
 ## NCreate release chain
 
